@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Html5 и Css3 сайт</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+<div id="logo" onclick="slowScroll('#top')">
+  <span>Отдых.Да</span>
+</div>
+<div id="about">
+  <a href="#" title="Важность" onclick="slowScroll('#main')">Важность</a>
+  <a href="#" title="Преимущества" onclick="slowScroll('#overiew')">Преимущества</a>
+  <a href="#" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+  <a href="#" title="faq" onclick="slowScroll('#faq')">FAQ</a>
+</div>
+  </header>
+
+<div id="top">
+  <h1>Отдых</h1>
+  <h3>Как смысл жизни!</h3>
+</div>
+
+<div id="main">
+  <div class="intro">
+    <h2>Мы поможем определиться!</h2>
+    <span>Покажем все необходимое для начала</span>
+  </div>
+  <div class="text">
+    <span>Отдых необходим для снижения уровня стресса в организме и перехода из режима «бей или беги» (свойственного нам при повышенном содержании кортизола и других гормонов, связанных с психофизиологической мобилизацией) в менее истощающий режим. Качественно отдыхая, мы начинаем больше любить свою работу, о чем говорят исследования.</span>
+  </div>
+</div>
+
+<div id="overiew">
+  <h2>Преимущества</h2>
+  <h4>В отдохнувшем теле здоровый дух!</h4>
+  <div class="img">
+    <img src="https://avatars.mds.yandex.net/i?id=6843f7e2b22017345f965f4f9a94af9c-4538830-images-thumbs&n=13" alt="">
+    <span>Польза физической активности</span>
+  </div>
+  <div class="img">
+    <img src="https://avatars.mds.yandex.net/i?id=6e4819f3e32462612918d42c59d5610e-4034619-images-thumbs&n=13" alt="">
+    <span>Ментальная релаксация</span>
+  </div>
+  <div class="img">
+    <img src="https://avatars.mds.yandex.net/i?id=ac1313d37b1da72af03c5f90efd8b24d-5205187-images-thumbs&n=13" alt="">
+    <span>Единение или обособленность с людьми, как вид отдыха</span>
+  </div>
+  <div class="img">
+    <img src="https://avatars.mds.yandex.net/i?id=bc57852dc2f462b47eaafe819e766705-4827877-images-thumbs&n=13" alt="">
+    <span>Творчесиво разновидность отдыха</span>
+  </div>
+</div>
+
+<div id="contacts">
+  <center><h5>Обратная свзять</h5></center>
+  <form id="form_input">
+    <label for="name">Имя <span>*</span></label><br>
+    <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+    <label for="email">Ваша почта <span>*</span></label><br>
+    <input type="text" placeholder="Введите почту" name="email" id="email"><br>
+    <label for="message">Сообщение <span>*</span></label><br>
+    <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+    <div id="mes_send" class="btn">Отправить</div>
+  </form>
+</div>
+
+<div id="faq">
+  <div>
+    <span class="title">Причины</span><br>
+    <span class="heading">Зачем нужно отдыхать?</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <span class="heading">Какая польза правильного отдыха</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <span class="heading">Послдествия отсутствия отдыха?</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div>
+    <span class="title">Информация</span><br>
+    <span class="heading">Какие есть виды?</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <span class="heading">Какие есть виды?</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <span class="heading">Какие есть виды?</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div>
+    <span class="title">Помощь</span><br>
+    <span class="heading">Что делать, если не удается расслабиться?</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <span class="heading">Что делать, если не удается расслабиться?</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <span class="heading">Что делать, если не удается расслабиться?</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+  function slowScroll(id){
+    $('html,body').animate({
+      scrollTop: $(id).offset().top
+    }, 500);
+  }
+
+  $(document).on("scroll",function (){
+    if ($(window).scrollTop() === 0)
+      $("header").removeClass("fixed");
+    else
+      $("header").attr("class", "fixed");
+  })
+</script>
+
+</body>
+</html>
